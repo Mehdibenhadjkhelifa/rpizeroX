@@ -1,0 +1,11 @@
+header:
+  version: 15
+local_conf_header:
+  custom-settings: |
+    PATCHRESOLVE = "noop"
+    CONF_VERSION = "2"
+    DL_DIR = "/yoctoshare/downloads"
+    SSTATE_DIR = "/yoctoshare/sstate-cache"
+    BB_HASHSERVE_DB_DIR = "${SSTATE_DIR}"
+
+#   PACKAGE_CLASSES = "ipk"

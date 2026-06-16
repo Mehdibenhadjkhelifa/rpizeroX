@@ -1,0 +1,17 @@
+header:
+  version: 15
+repos:
+  openembedded-core:
+    url: https://git.openembedded.org/openembedded-core
+    path: vendor/openembedded-core
+    branch: wrynose
+    layers:
+      meta-selftest: disabled
+      meta-skeleton: disabled
+      meta:
+  bitbake:
+    url: https://git.openembedded.org/bitbake
+    path: vendor/bitbake
+    branch: "2.18"
+    layers:
+      bitbake: disabled
