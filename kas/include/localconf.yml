@@ -7,5 +7,4 @@ local_conf_header:
     DL_DIR = "/yoctoshare/downloads"
     SSTATE_DIR = "/yoctoshare/sstate-cache"
     BB_HASHSERVE_DB_DIR = "${SSTATE_DIR}"
-
-#   PACKAGE_CLASSES = "ipk"
+    ENABLE_UART = "1"
