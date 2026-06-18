@@ -8,3 +8,6 @@ local_conf_header:
     SSTATE_DIR = "/yoctoshare/sstate-cache"
     BB_HASHSERVE_DB_DIR = "${SSTATE_DIR}"
     ENABLE_UART = "1"
+    INHERIT += "buildhistory"
+    BUILDHISTORY_COMMIT = "1"
+    IMAGE_FEATURES:append = " empty-root-password"
